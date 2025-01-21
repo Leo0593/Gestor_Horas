@@ -39,6 +39,7 @@ public class inicio extends AppCompatActivity {
     public boolean onCreateOptionsMenu(Menu menu) {
         getMenuInflater().inflate(R.menu.menu,menu);
         return super.onCreateOptionsMenu(menu);
+        //holñaaaaaaaaaaaaaaaaaaaa
     }
     //Leandro
     // Weon ctm
