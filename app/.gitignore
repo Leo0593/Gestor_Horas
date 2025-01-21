@@ -1,0 +1,21 @@
+# Directorios de construcción
+/build
+
+# Archivos de Android Studio
+.idea
+*.iml
+
+# Archivos generados por Android
+*.apk
+*.aab
+
+# Archivos locales específicos de Gradle
+/local.properties
+
+# Archivos de caché y configuraciones de Gradle
+/.gradle
+/caches
+
+# Archivos de compilación de proyectos
+**/build
+**/captures

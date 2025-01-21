@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".timer"
+    android:background="@android:color/black">
+
+    <Chronometer
+        android:id="@+id/cronometro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:textColor="@color/white"
+
+        android:textSize="150dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/Detener"
+        android:layout_width="160dp"
+        android:layout_height="160dp"
+
+        android:backgroundTint="#479D1313"
+        android:text="Detener"
+
+        android:textColor="#F00606"
+        android:textSize="25dp"
+        app:cornerRadius="160dp"
+        app:layout_constraintEnd_toStartOf="@+id/view"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cronometro" />
+
+
+    <Button
+        android:id="@+id/Iniciar"
+        android:layout_width="160dp"
+        android:layout_height="160dp"
+
+        android:backgroundTint="#471B9D13"
+
+        android:text="Iniciar"
+        android:textColor="#1EF006"
+
+        android:textSize="25dp"
+        app:cornerRadius="160dp"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/view"
+        app:layout_constraintTop_toBottomOf="@+id/cronometro" />
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="1px"
+        android:layout_height="100dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cronometro" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

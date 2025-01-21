@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="rojo">#F44336</color> <!-- Color rojo para la barra de acción -->
+    <color name="rojoOscuro">#CC0000</color> <!-- Color para variaciones -->
+    <color name="blanco">#FFFFFF</color> <!-- Color del texto sobre el rojo -->
+
+    <color name="azul">#2196F3</color>
+    <color name="azuloscuro">#1172BF</color>
+
+</resources>
